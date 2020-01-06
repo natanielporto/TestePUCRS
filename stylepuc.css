@@ -1,0 +1,789 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: #0E4172;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+    width: 269px;
+}
+
+.navbar-brand {
+    transform: scale(0.3);
+}
+
+.navbar-menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-nav {
+    display: flex;
+}
+.flex-search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar-nav a {
+    color: #114474 !important;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    padding: 5px;
+    margin: 30px 0;
+}
+
+#navbarDropdown {
+    border: 2px solid #3B648C;
+    border-radius: 7px;
+    padding: 3px 15px;
+
+}
+
+#dropdown-container {
+    align-self: center;
+}
+
+.nav-item .dropdown-menu {
+    border-width: medium;
+    border-style: solid;
+    border-color: #3B648C;
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+    width: 227.16px;
+    top: 25px;
+}
+
+input {
+    position: relative;
+    width: 112%;
+    border: 2px solid #3B648C;
+    border-radius: 7px;
+    padding: 8px 15px 4px 15px;
+    text-align: right;
+}
+
+input::placeholder {
+    color: #3B648C;
+    font-size: 20px;
+    padding: 3px 3px 0 0;
+}
+  
+.search-icon {
+    position: absolute;
+    top: 36px;
+    left: 913px;
+    transform: scale(1.5);
+}
+
+.first-container {
+    width: 125px;
+}
+  
+.second-container {
+    width: 100%;
+    display: none;
+}
+  
+.visible {
+    display: none;
+}
+  
+.visible2 {
+    display: flex
+}
+
+
+.fa-search {
+    color: #3B648C;
+    position: absolute;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #194978;
+    background-clip: unset;
+    border-top: 0;
+    border-bottom: 0;
+    opacity: .5;
+}
+
+.breadcrumb {
+    background-color: white;
+    margin: 0.5rem 0;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: " > ";
+    font-weight: 900;
+}
+
+.breadcrumb a {
+    color: #114474;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.breadcrumb a:hover {
+    text-decoration: none;
+    color: #114474;
+}
+
+.breadcrumb >.active {
+    color: #114474;
+    font-size: 18px;
+    font-weight: 400;
+ }
+
+.banner {
+    width: 100%;
+}
+
+.row-expanded {
+    margin: 0 -15px;
+}
+
+.title-line {
+    height: 5px;
+    background-color: #6AB3E3;
+}
+
+
+.first-section {
+    display: flex;
+}
+
+.section-title {
+    padding-top: 5px;
+    font-weight: 700;
+    color: #0E4172;
+}
+
+.card.first-section-card{
+    width: 18em;
+    height: 550px;
+    border: none;
+}
+
+.card-image {
+    padding: 20px;
+}
+
+.card-title {
+    text-align: center;
+    color: #114474;
+    font-weight: 700;
+}
+
+.card-text {
+    text-align: center;
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.parallax-container {
+    background-color: #0E4172;
+    color: white;
+    background-image: url("Facin_PUCRS.jpg");
+    background-repeat: no-repeat;
+    height: 27rem;
+    background-attachment: fixed;
+}
+
+.parallax-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 13.5rem;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container-btn-colors {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 3px;
+
+}
+
+.btn-colors-wrapper {
+    font-size: 15px;
+    margin: 0 auto 3rem auto;
+    width: auto;
+    justify-content: space-between;
+}
+
+.btn-background-colors {
+    border: none;
+    padding: .3rem 1.25rem;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    width: auto;
+}
+
+.container-circles {
+    max-width: 1062px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.circle {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    margin: 12px;
+}
+
+.baby-blue {
+    background: #6BCBB8;
+}
+
+.red {
+    background: #DB4152;
+}
+
+.orange {
+    background: #F47A44;
+}
+
+.purple {
+    background: #69479D;
+}
+
+.green {
+    background: #009877;
+}
+
+.blue {
+    background: #345D9D;
+}
+
+.yellow {
+    background: #FFB548;
+}
+
+.fullscreen-gradient-container {
+    height: 100vh;
+    background-image: linear-gradient(#00FFCA, #04EFCE, #10C5DB, #2483EF, #344EFF);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.fullscreen-gradient-text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 50vh;
+}
+
+#menuD {
+    padding-bottom: 2rem;
+}
+
+.container-last-title {
+    position: flex;
+    justify-content: space-around;
+    padding-bottom: .5rem;
+}
+
+.line-last-title {
+    height: 5px;
+    width: 40%;
+    right: 0;
+    position: absolute;
+    background-color: #6AB3E3;
+}
+
+.last-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-last-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.last-logo-puc {
+    display: flex;
+    background: #6AB3E3;
+    height: auto;
+    width: center;
+    justify-content: center;
+}
+
+.last-logo-puc img {
+    transform: scale(.6)
+}
+
+.last-menu-select {
+    color: white;
+}
+
+.last-menu-select:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.col-9, .col-3 {
+    padding: 0 7.5px
+}
+
+.first-acordion {
+    padding: 0;
+    margin: 0;
+    background: #6AB3E3;
+}
+
+.card-body-acordion {
+    background-color: #5397C4;
+    padding: 10px;
+}
+
+.acordion a {
+    background: #5397C4;
+    color:#C0D9E9;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px 15px 22px;
+    font-family: "Nurito" sans-serif;
+}
+
+.acordion a:hover {
+    text-decoration: none;
+    color:#C0D9E9;
+}
+
+.card.acordion-card {
+    font-family: "Nurito", sans-serif;
+    font-weight: 700;
+    width: auto;
+    height: auto;
+    border: white 1px solid;
+}
+
+.card-header {
+    background: #6AB3E3;
+    font-family: "Nurito", sans-serif;
+    font-weight: 700;
+}
+
+.card-header-last {
+    margin-bottom: 1px !important;
+}
+
+.card.card-body {
+    background: #007D95;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.blue-bottom {
+    padding-bottom: 321px;
+}
+
+.container-right {
+    padding: 0;
+}
+
+.right-last-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #007D95;
+    color: white;
+    padding-right: 0;
+}
+
+.last-title {
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+}
+
+.right-last-section-button {
+    background: #0BD6D6;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+.right-last-section-button:hover {
+    box-shadow: none;
+    background: #0BD6D6;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+.right-last-section-button:focus {
+    box-shadow: none;
+    background: #0BD6D6;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+.last-col {
+    padding: 15px;
+}
+
+.last-paragraph {
+    display: flex;
+    justify-content: space-around;
+}
+
+.table-striped {
+    background: white;
+}
+
+.striped {
+    color: #007D95;
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 0;
+}
+
+.row-table, .col-table {
+    font-weight: 400;
+}
+
+.last-carousel .carousel-inner {
+    height: 300px;
+}
+
+.last-carousel {
+    padding-right: 10px;
+    padding-top: 16px;
+}
+
+.last-carousel .carousel-caption {
+    color: fff;
+    background: #007D95;
+    padding: 0;
+    margin: 0;
+}
+
+.last-carousel p {
+    margin: 0;
+}
+
+.last-carousel img {
+    transform: scale(1.5)
+}
+
+.calendar {
+    margin: 0;
+}
+
+.table-calendar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.calendar-month {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 7px;
+    color: #007D95;
+    font-weight: 700;
+    background: #F2F2F2;
+    border: 1px solid lightgrey;
+    font-size: 14px;
+}
+
+.past, .future, .present, .col-calendar  {
+    color: lightgray;
+    border: 1px solid lightgrey;
+    font-size: 11px;
+    background-color: #EBEBEB;
+    padding: 0;
+}
+
+.present, .col-calendar {
+    color: black;
+}
+
+.calendar .present:hover {
+    background: #007D95;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+.footer-container-top {
+    background: #0E4172;
+}
+
+.five-buttons {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.btn.btn-light {
+    margin: 1rem;
+    width: 9rem;
+    height: 2rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    color: #0E4172;
+}
+
+.footer-container-bottom {
+    background: #6AB3E3;
+}
+
+.btn.btn-secondary {
+    background: white;
+    border-color: white;
+    margin: .10rem;
+    width: 9rem;
+    height: 2rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    color: #0E4172;
+}
+
+.footer-link-list li {
+    padding-bottom: .5rem;
+    list-style-type: none;
+}
+
+.footer-link-list a {
+    color: #0E4172;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.footer-link-list a:hover {
+    text-decoration: none;
+}
+
+.communication {
+    vertical-align: center;
+}
+
+.borderless {
+    border: none;
+    width: 100px;
+}
+
+.newsletter-text {
+    font-size: 14px;
+    color: #0E4172;
+}
+
+.newsletter-final .form-control::placeholder {
+    color: lightgray;
+    font-size: 14px;
+    font-weight: 400;
+    border-color: white;
+    text-align: center;
+}
+
+.fab {
+    color: white;
+    margin: 15px 15px 15px 0;
+    transform: scale(1.25);
+}
+
+
+@media (min-width: 0) { /*(celulares)*/
+    .nav-link {
+        padding: 0;
+        margin: 0 0;
+    }
+
+    .search-icon {
+        top: 177px;
+        left: 268px;
+    }
+
+    .btn-colors-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .row {
+        grid-column: none;
+    }
+
+    .last-paragraph {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .right-last-section-button {
+        margin-bottom: 15px;
+    }
+
+    .table-striped, .table.calendar, .calendar-month {
+        width: 398px;
+    }
+
+    .list-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .blue-bottom {
+        padding-bottom: 0;
+    }
+
+    .col-auto {
+        padding: 0;
+    }
+
+    .five-buttons {
+        justify-content: left;
+    }
+
+    .newsletter-text {
+        text-align: center;
+    }
+
+    .borderless {
+        width: 450px;
+        align-items: center;
+    }
+
+    .fab-container {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) { /*(tablets)*/
+    .navbar-nav {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .search-icon {
+        top: 163px;
+        left: 234px;
+    }
+
+    .btn-colors-wrapper {
+        justify-content: left;
+    }
+
+    .dropdown-menu {
+       position: relative;
+    }
+
+    .dropdown-menu.show {
+        padding: 0 0 8px 0;
+        position: absolute;
+        width: 209.06px;
+    }
+    
+    .d-block {
+        width: 124%;
+    }
+
+    .last-logo-puc img {
+        transform: scale(.4)
+    }
+
+    .last-paragraph {
+        justify-content: flex-end;
+    }
+
+    .blue-bottom {
+        padding-bottom: 1129px;
+    }
+
+    .table-striped, .table.calendar, .calendar-month {
+        width: 306px;
+        align-items: center;
+    }
+
+    .col-auto {
+        padding: 0;
+    }
+
+    .five-buttons {
+        justify-content: left;
+    }
+}
+
+@media (min-width: 992px) { /*(desktop + antigos)*/
+    .btn-colors-wrapper {
+        justify-content: space-between;
+    }
+
+    .nav-item .dropdown-menu {
+        width: 225.16px;
+    }
+
+    .last-paragraph {
+        justify-content: space-around;
+    }
+
+    .blue-bottom {
+        padding-bottom: 256px;
+    }
+
+    .right-last-section-button {
+        padding: 6px 12px !important;
+    }
+    
+    .calendar-month {
+        width: 306px;
+    }
+
+    .col-auto {
+        padding: 0;
+    }
+
+    .five-buttons {
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1200px) { /*(desktop novos e TVs)*/
+
+    .right-last-section-button {
+        padding: 6px 24px !important;
+    }
+
+    .blue-bottom {
+        padding-bottom: 320px;
+    }
+
+    .table-striped, .table.calendar, .calendar-month {
+        width: 397px;
+    }
+}
+
